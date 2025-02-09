@@ -21,20 +21,20 @@ endif
 let g:colors_name = 'iceberg'
 
 if &background == 'light'
-  hi Normal ctermbg=254 ctermfg=237 guibg=#e8e9ec guifg=#ffffff
+  hi Normal ctermbg=254 ctermfg=237 guibg=#e8e9ec guifg=#E4F0FB
   hi ColorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
   hi CursorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
   hi CursorLine cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
   hi Comment ctermfg=244 guifg=#8389a3
   hi Conceal ctermbg=254 ctermfg=244 guibg=#e8e9ec guifg=#8389a3
   hi Constant ctermfg=97 guifg=#7759b4
-  hi Cursor ctermbg=237 ctermfg=254 guibg=#33374c guifg=#e8e9ec
+  hi Cursor ctermbg=237 ctermfg=254 guibg=#E4F0FB guifg=#e8e9ec
   hi CursorLineNr cterm=NONE ctermbg=251 ctermfg=237 guibg=#cad0de guifg=#576a9e
-  hi Delimiter ctermfg=237 guifg=#33374c
+  hi Delimiter ctermfg=237 guifg=#E4F0FB
   hi DiffAdd ctermbg=79 ctermfg=23 guibg=#d4dbd1 guifg=#475946
   hi DiffChange ctermbg=116 ctermfg=24 guibg=#ced9e1 guifg=#375570
   hi DiffDelete cterm=NONE ctermbg=181 ctermfg=89 gui=NONE guibg=#e3d2da guifg=#70415e
-  hi DiffText cterm=NONE ctermbg=73 ctermfg=24 gui=NONE guibg=#acc5d3 guifg=#33374c
+  hi DiffText cterm=NONE ctermbg=73 ctermfg=24 gui=NONE guibg=#acc5d3 guifg=#E4F0FB
   hi Directory ctermfg=31 guifg=#3f83a6
   hi Error ctermbg=254 ctermfg=125 guibg=#e8e9ec guifg=#cc517a
   hi ErrorMsg ctermbg=254 ctermfg=125 guibg=#e8e9ec guifg=#cc517a
@@ -50,17 +50,17 @@ if &background == 'light'
   hi Include ctermfg=25 guifg=#2d539e
   hi IncSearch cterm=reverse ctermfg=NONE gui=reverse guifg=NONE term=reverse
   hi LineNr ctermbg=253 ctermfg=248 guibg=#dcdfe7 guifg=#9fa7bd
-  hi MatchParen ctermbg=250 ctermfg=0 guibg=#bec0c9 guifg=#33374c
+  hi MatchParen ctermbg=250 ctermfg=0 guibg=#bec0c9 guifg=#E4F0FB
   hi ModeMsg ctermfg=244 guifg=#8389a3
   hi MoreMsg ctermfg=64 guifg=#668e3d
   hi Operator ctermfg=25 guifg=#2d539e
-  hi Pmenu ctermbg=251 ctermfg=237 guibg=#cad0de guifg=#33374c
+  hi Pmenu ctermbg=251 ctermfg=237 guibg=#cad0de guifg=#E4F0FB
   hi PmenuSbar ctermbg=251 ctermfg=NONE guibg=#cad0de guifg=NONE
-  hi PmenuSel ctermbg=248 ctermfg=235 guibg=#a7b2cd guifg=#33374c
-  hi PmenuThumb ctermbg=237 ctermfg=NONE guibg=#33374c guifg=NONE
+  hi PmenuSel ctermbg=248 ctermfg=235 guibg=#a7b2cd guifg=#E4F0FB
+  hi PmenuThumb ctermbg=237 ctermfg=NONE guibg=#E4F0FB guifg=NONE
   hi PreProc ctermfg=64 guifg=#668e3d
   hi Question ctermfg=64 guifg=#668e3d
-  hi QuickFixLine ctermbg=251 ctermfg=237 guibg=#c9cdd7 guifg=#33374c
+  hi QuickFixLine ctermbg=251 ctermfg=237 guibg=#c9cdd7 guifg=#E4F0FB
   hi Search ctermbg=180 ctermfg=94 guibg=#eac6ad guifg=#85512c
   hi SignColumn ctermbg=253 ctermfg=248 guibg=#dcdfe7 guifg=#9fa7bd
   hi Special ctermfg=64 guifg=#668e3d
@@ -89,7 +89,7 @@ if &background == 'light'
   hi Visual ctermbg=251 ctermfg=NONE guibg=#c9cdd7 guifg=NONE
   hi VisualNOS ctermbg=251 ctermfg=NONE guibg=#c9cdd7 guifg=NONE
   hi WildMenu ctermbg=235 ctermfg=252 guibg=#32364c guifg=#e8e9ec
-  hi icebergNormalFg ctermfg=237 guifg=#33374c
+  hi icebergNormalFg ctermfg=237 guifg=#E4F0FB
   hi diffAdded ctermfg=64 guifg=#668e3d
   hi diffRemoved ctermfg=125 guifg=#cc517a
   hi ALEErrorSign ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
@@ -106,7 +106,7 @@ if &background == 'light'
   hi GitGutterChangeDelete ctermbg=253 ctermfg=31 guibg=#dcdfe7 guifg=#3f83a6
   hi GitGutterDelete ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
   hi gitmessengerEndOfBuffer ctermbg=253 ctermfg=248 guibg=#dcdfe7 guifg=#9fa7bd
-  hi gitmessengerPopupNormal ctermbg=253 ctermfg=237 guibg=#dcdfe7 guifg=#33374c
+  hi gitmessengerPopupNormal ctermbg=253 ctermfg=237 guibg=#dcdfe7 guifg=#E4F0FB
   hi Sneak ctermbg=97 ctermfg=254 guibg=#7759b4 guifg=#e8e9ec
   hi SneakScope ctermbg=251 ctermfg=244 guibg=#c9cdd7 guifg=#8389a3
   hi SyntasticErrorSign ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
@@ -131,7 +131,7 @@ if &background == 'light'
   hi DiagnosticUnderlineError cterm=underline ctermfg=125 gui=underline guisp=#cc517a term=underline
   hi DiagnosticError ctermfg=125 guifg=#cc517a
   hi DiagnosticSignError ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
-  hi DiagnosticFloatingHint ctermbg=251 ctermfg=237 guibg=#cad0de guifg=#33374c
+  hi DiagnosticFloatingHint ctermbg=251 ctermfg=237 guibg=#cad0de guifg=#E4F0FB
   hi icebergALAccentRed ctermfg=125 guifg=#cc517a
 
   if has('nvim')
@@ -142,7 +142,7 @@ if &background == 'light'
     let g:terminal_color_4 = '#2d539e'
     let g:terminal_color_5 = '#7759b4'
     let g:terminal_color_6 = '#3f83a6'
-    let g:terminal_color_7 = '#33374c'
+    let g:terminal_color_7 = '#E4F0FB'
     let g:terminal_color_8 = '#8389a3'
     let g:terminal_color_9 = '#cc3768'
     let g:terminal_color_10 = '#598030'
@@ -152,7 +152,7 @@ if &background == 'light'
     let g:terminal_color_14 = '#327698'
     let g:terminal_color_15 = '#262a3f'
   else
-    let g:terminal_ansi_colors = ['#dcdfe7', '#cc517a', '#668e3d', '#c57339', '#2d539e', '#7759b4', '#3f83a6', '#33374c', '#8389a3', '#cc3768', '#598030', '#b6662d', '#22478e', '#6845ad', '#327698', '#262a3f']
+    let g:terminal_ansi_colors = ['#dcdfe7', '#cc517a', '#668e3d', '#c57339', '#2d539e', '#7759b4', '#3f83a6', '#E4F0FB', '#8389a3', '#cc3768', '#598030', '#b6662d', '#22478e', '#6845ad', '#327698', '#262a3f']
   endif
 else
   hi Normal ctermbg=234 ctermfg=252 guibg=#161821 guifg=#c6c8d1
